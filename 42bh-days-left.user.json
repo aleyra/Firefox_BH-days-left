@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "42BH-days-left",
+	"version": "0.1",
+
+	"description": "Blackholes days left",
+
+	"icons": {
+		"48":"https://www.google.com/s2/favicons?domain=42.fr"
+	},
+
+	"content_scripts": [
+		{
+			"matchs": ["*://profile.intra.42.fr/*"],
+			"js": ["42bh-days-left.user.js"]
+		}
+	]
+}
