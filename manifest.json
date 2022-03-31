@@ -1,18 +1,19 @@
 {
 	"manifest_version": 2,
-	"name": "42BH-days-left",
+	"name": "42 - BH Days left",
 	"version": "0.1",
 
-	"description": "Blackholes days left",
+	"description": "Shows the days left again on the 42 intra's profile.",
 
 	"icons": {
-		"48":"https://www.google.com/s2/favicons?domain=42.fr"
+		"16": "icons/42_16.png",
+		"48": "icons/42_48.png"
 	},
 
 	"content_scripts": [
 		{
-			"matchs": ["*://profile.intra.42.fr/*"],
-			"js": ["https://github.com/aleyra/Firefox_BH-days-left/blob/master/42bh-days-left.user.js"]
+			"matches": ["*://profile.intra.42.fr/*"],
+			"js": ["content_scripts/42bh-days-left.user.js"]
 		}
 	]
 }
