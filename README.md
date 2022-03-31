@@ -1,1 +1,8 @@
-# thx https://gist.github.com/GlaceCoding/6d189078c3c49fb0e6e69314601fbe4f
+# web-ext
+
+Install : `npm install --global web-ext`
+Test : `web-ext run`
+Linter : `web-ext lint`
+Package : `web-ext build`
+
+More help : <https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/>
